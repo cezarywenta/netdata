@@ -117,6 +117,12 @@ docs/diagrams/plantuml.jar
 venv/
 .python-version
 
+# calculator binaries
+src/calculator/calculator
+src/calculator/test_calculator
+src/calculator/netdata-calculator
+src/calculator/netdata-calculator-test
+
 # debugging / profiling
 makeself/debug/
 tests/profile/benchmark-dictionary
