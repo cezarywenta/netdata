@@ -3833,6 +3833,9 @@ if(OS_WINDOWS)
         install(DIRECTORY /usr/ssl DESTINATION usr)
 endif()
 
+# Calculator module
+add_subdirectory(src/calculator)
+
 #
 # Include packaging logic
 #
